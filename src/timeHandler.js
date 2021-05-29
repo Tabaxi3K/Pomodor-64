@@ -21,6 +21,11 @@ export const longBreakHandler = (event) => {
     state.push(newCount);
 };
 
+export const pomoDoroHandler = (event) => {
+	newCount = new CountDownTimer(1500, displayCount, progressBar);
+	state.push(newCount);
+};
+
 export const timeHandler = (event) => {
     const list = [...event.target.parentElement.children[0].children];
 
