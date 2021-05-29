@@ -47,3 +47,25 @@
     box-shadow: rgb(235, 235, 235) 0px 6px 0px;
     font-family: 'Varela Round', sans-serif;
 }
+
+.time-btn {
+    border: none;
+    color: white;
+    margin: 0px;
+    border-radius: 4px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+    padding: 2px 12px;
+    height: 28px;
+    cursor: pointer;
+    background: none;
+    box-shadow: none;
+    font-weight: 400;
+}
+
+.start-work {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    overflow-wrap: break-word;
+}
