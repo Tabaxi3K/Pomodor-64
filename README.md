@@ -3,11 +3,11 @@
 - A simplified version of the one at https://github.com/IrynaSpyrydonova/pomofocus
 
 # Acknowledgments:
-https://www.w3schools.com/html/default.asp
-https://www.w3schools.com/css/default.asp
-https://www.w3schools.com/js/default.asp
-https://www.w3schools.com/nodejs/default.asp
-https://www.w3schools.com/howto/default.asp
+- https://www.w3schools.com/html/default.asp
+- https://www.w3schools.com/css/default.asp
+- https://www.w3schools.com/js/default.asp
+- https://www.w3schools.com/nodejs/default.asp
+- https://www.w3schools.com/howto/default.asp
 
 # Built With:
 - Jet Brains Pycharm
