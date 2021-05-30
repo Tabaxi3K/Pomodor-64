@@ -1,4 +1,4 @@
-import {CountDownTimer} from "./time";
+import {CountDownTimer} from "./time.js";
 
 const displayCount = document.getElementById('timer-string');
 const progressBar = document.getElementById('progress-bar');
