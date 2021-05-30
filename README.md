@@ -8,7 +8,7 @@ https://www.w3schools.com/js/default.asp
 https://www.w3schools.com/nodejs/default.asp
 https://www.w3schools.com/howto/default.asp
 
-#Built With:
+# Built With:
 Jet Brains Pycharm
 GitHub
 JavaScript
@@ -16,6 +16,6 @@ HTML
 CSS
 Node.js
 
-#Debuggers:
+# Debuggers:
 Chrome Develope Tool
 Jet Brains Pycharm Debugger
