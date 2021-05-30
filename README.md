@@ -1,6 +1,6 @@
 # Pomodor-64
-An online Pomodoro timer with cool color transitions and an easter egg button at the top
-A simplified version of the one at https://github.com/IrynaSpyrydonova/pomofocus
+- An online Pomodoro timer with cool color transitions and an easter egg button at the top
+- A simplified version of the one at https://github.com/IrynaSpyrydonova/pomofocus
 
 # Acknowledgments:
 https://www.w3schools.com/html/default.asp
