@@ -21,21 +21,6 @@
                 Pomodor 64
               </a>
             </h1>
-            <span class="btn-container ">
-              <button class="navbar-btn">
-                <img src="./public/assets/graph-white.png" alt="graph icon" class="btn-icon-navbar">
-              </button>
-              <button class="navbar-btn">
-                <img src="./public/assets/config-white.png" alt="config icon" class="btn-icon-navbar">
-                <div class="icon-btn-wrapper">Setting</div>
-              </button>
-              <div class="login-wrapper">
-                <button class="navbar-btn">
-                  <img src="./public/assets/user-white.png" alt="" class="btn-icon-navbar">
-                  <div class="icon-btn-wrapper">Login</div>
-                </button>
-              </div>
-            </span>
           </div>
         </div>
         <div>
@@ -57,28 +42,6 @@
                 <div class="active-work">WORKING ON</div>
                 <div class="start-work">Time to work!</div>
               </div>
-              <div class="task-container">
-                <div class="task-list">
-                  <span class="task">Tasks</span>
-                  <div class="task-icon-container">
-                    <button class="task-btn">
-                      <img src="./public/assets/threedots-white.png" alt="" class="task-icon">
-                    </button>
-                  </div>
-                </div>
-                <div class="task-border"></div>
-                <div class="add-task-container">
-                  <img src="./public/assets/plus-circle-white.png" alt="" class="add-task-icon">
-                  <div class="add-task">Add Task</div>
-                </div>
-              </div>
-              <div class="board">
-                <div class="boardWrapper">
-                  <div>Est: <span class="boardItems">2</span></div>
-                  <div>Act: <span class="boardItems">0</span></div>
-                  <div>Finish at <span class="boardItems">14:43</span></div>
-                </div>
-              </div>
             </div>
         </div>
       </div>
@@ -93,9 +56,9 @@
     <div class="catchcopy container">
       <h2 class="catchcopy__header">What is Pomodor 64?</h2>
       <p class="catchcopy__text">
-        Pomodor 64 is a customizable pomodoro timer that works on
+        Pomodor 64 is a pomodoro timer that works on any
         desktop & mobile browser. The aim of this app is to help you
-        focus on any task you are working on, such as study,
+        focus on any task you are working on, such as studying,
         writing, or coding. This app is inspired by
         <a
           href="https://francescocirillo.com/pages/pomodoro-technique"
@@ -109,9 +72,9 @@
     </div>
 
     <div class="pomodoro container">
-      <h2 class="catchcopy__header">What is Pomodoro Technique?</h2>
+      <h2 class="catchcopy__header">What is the Pomodoro Technique?</h2>
       <p class="catchcopy__text">
-        The Pomodoro Technique is created by Francesco Cirillo for a
+        The Pomodoro Technique was created by Francesco Cirillo as a
         more productive way to work and study. The technique uses a
         timer to break down work into intervals, traditionally 25
         minutes in length, separated by short breaks. Each interval
@@ -132,22 +95,13 @@
         How to use the Pomodoro Timer?
       </h2>
       <ol class="features__list-ol">
-        <li><strong>Add tasks</strong> to work on today</li>
+        <li><strong>Click Pomodoro</strong> and press start to start working</li>
         <li>
-          <strong>Set estimate pomodoros</strong> (1 = 25min of
-          work) for each tasks
+          <strong>Click short break</strong> after your 25 minutes of work for a 5 minute break
         </li>
-        <li><strong>Select a task</strong> to work on</li>
+        <li><strong>Repeat the Pomodoro and short break</strong> until you are done working</li>
         <li>
-          <strong>Start timer</strong> and focus on the task for 25
-          minutes
-        </li>
-        <li>
-          <strong>Take a break</strong> for 5 minutes when the alarm
-          ring
-        </li>
-        <li>
-          <strong>Iterate</strong> 3-5 until you finish the tasks
+          <strong>Every 3-5 Pomodoros</strong> click on long break for a 15 minute break
         </li>
       </ol>
     </div>
@@ -159,18 +113,26 @@
           <strong>Color transition</strong> to switch moods between
           work time and rest time
         </li>
-        <li>
-          <strong>Customizable timer</strong> intervals to suit your
-          preference
-        </li>
       </ul>
     </div>
   </main>
   <div class="footer">
-<div class="footer__sitemap container">
-    <a href="/">HOME</a>
-    <a href="mailto:calebchoe@gmail.com">CONTACT</a>
-</div>
     <div class="footer__me">Made with <3 by Caleb Choe</div>
 </div>
+
+  <!-- load the frontend testing & reviewing dependencies -->
+  <script src='./lib/review-buttons.js' type='module'></script>
+  <script src='./lib/gremlins.js'></script>
+
+  <!-- load your app -->
+  <script type='module' src='./src/init.js'></script>
+<script src='server.js'></script>
+<script src='./src/Handler/Background.js'></script>
+<script src="./src/time.js"></script>
+<script src="./src/task.js"></script>
+<script src="./src/timeHandler.js"></script>
+
+
 </body>
+
+</html>
